@@ -1,0 +1,63 @@
+import type { Frame } from "./types";
+
+export const FRAMES: Frame[] = [
+  {
+    id: "madeira",
+    name: { farm: "Madeira simples", night: "Pixel básico" },
+    style: 0,
+    level: 1,
+    price: 0,
+    requirement: "Inicial, grátis",
+  },
+  {
+    id: "cerca",
+    name: { farm: "Cerca de jardim", night: "Néon rosa" },
+    style: 1,
+    level: 3,
+    price: 120,
+    requirement: "Nível 3 · 120 moedinhas",
+  },
+  {
+    id: "trepadeira",
+    name: { farm: "Trepadeira com flores", night: "Circuito ciano" },
+    style: 2,
+    level: 7,
+    price: 260,
+    requirement: "Nível 7 · 260 moedinhas",
+  },
+  {
+    id: "girassol",
+    name: { farm: "Girassóis animados", night: "Letreiro piscando" },
+    style: 3,
+    level: 12,
+    price: 500,
+    requirement: "Nível 12 · 500 moedinhas",
+  },
+  {
+    id: "react",
+    name: { farm: "Moldura do Campo de React", night: "Moldura do Campo de React" },
+    style: 4,
+    level: 1,
+    price: null,
+    achievement: "react-done",
+    requirement: "Conclua todas as lições de React",
+  },
+  {
+    id: "100dias",
+    name: { farm: "100 dias estudados", night: "100 dias estudados" },
+    style: 5,
+    level: 1,
+    price: null,
+    achievement: "days-100",
+    requirement: "Estude em 100 dias diferentes",
+  },
+  {
+    id: "cacador",
+    name: { farm: "Caçador de dragões", night: "Matador de glitches" },
+    style: 6,
+    level: 1,
+    price: null,
+    achievement: "dragon-slayer",
+    requirement: "Derrote o dragão uma vez",
+  },
+];
