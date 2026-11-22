@@ -47,8 +47,6 @@ npm install
 npm run dev
 ```
 
-Abra http://localhost:3000.
-
 | Comando | O que faz |
 | --- | --- |
 | `npm run dev` | Servidor de desenvolvimento |
